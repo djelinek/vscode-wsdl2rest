@@ -65,7 +65,7 @@
         "postinstall": "node ./scripts/postinstall.js",
         "test": "node ./out/test/runTest.js",
         "lint": "tslint --project .",
-        "ui-test": "node out/ui-test/uitest_runner.js"
+        "ui-test": "node ./out/ui-test/uitest_runner.js"
     },
     "devDependencies": {
         "@types/chai": "^4.2.11",
